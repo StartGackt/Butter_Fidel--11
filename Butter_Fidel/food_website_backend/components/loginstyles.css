@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;500&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0%;
+    perspective: 1px;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Inter', sans-serif;
+}
+
+
+
+/* สไตล์เมนู */
+.menu-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+/* กดเปิด/ปิด เมนู */
+.navbar.navbar-open {
+  transform: translateX(0);
+}
+
+
+.nameweb p {
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  height: 100%;
+  margin: 0 auto;
+}
+
+
+.navbar {
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 14px 12px;
+  margin: 0 10px;
+}
+
+.navbar2 {
+  text-align: right;
+  align-items: center;
+  justify-content: space-between;
+  padding: 150px;
+  
+}
+
+.navbar2 a3 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+.navbar2 a2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  text-decoration: none;
+  font-size: 55px;
+}
+
+.navbar2 a { /*ต้องใช้ a ถึงจะเชื่อมหน้าได้*/
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.button {
+  display: inline-block;
+  padding: 8px 21px;
+  background-color: #9747FF;
+  color: white;
+  text-decoration: none;
+  border-radius: 50px;
+  margin: 10px 90px;
+}
+
+.button:hover {
+  color: rgb(0, 0, 0);
+  background-color: #ffffff;
+}
+
+
+.login-box a {
+  display: flex;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  right: 180px;
+  margin: 4px 2px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 32px;
+  font-weight: bold;
+ 
+}
+
+.login-box1 a {
+  display: flex;
+  align-items: center;
+  background-color: #0D99FF;
+  border-radius: 1px;
+  overflow: hidden;
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  margin: 4px 2px;
+  border: 1px solid #ffffff;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+
+.vl { /*เส้นตรงด้านบน*/
+  border-left: 1px solid rgb(255, 255, 255);
+  height: 2000px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: -900px;
+  transform: rotate(-90deg);
+  position: absolute;
+}
+
+.imgguy {
+    position: absolute;
+    right: 10%;
+}
+
+.imgfriend1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgfriend1 p{
+  color: rgb(0, 0, 0);
+  text-align: center;
+
+}
+
+.imgfriend1 a{
+  color: red;
+  text-align: center;
+
+}
+
+.topcolumn {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+
+.column {
+  flex: 1;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px;
+  text-align: left;
+}
+
+.column h1{
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.column h2{
+  font-size: 65px;
+  font-weight: bold;
+}
+
+.column1 {
+  flex: 1;
+  text-align: left;
+  padding: 20px;
+  margin: 10px;
+}
+
+.column p {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 18px;
+  text-align: left;
+  }
+  
+
+
+.column p2{
+  color: #696969;
+}
+
+.column1 h3{
+  position: relative;
+  color: #000000;
+  z-index: 1;
+  
+}
+
+.column1 p3{
+  position: relative;
+  color: #000000;
+  z-index: 1;
+  
+}
+
+
+.color-info p {
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 18px;
+  text-align: left;
+  }
+  
+  .color-name {
+    margin-left: 10px;
+    font-weight: bold;
+    color: #000000;
+    font-size: 18px;
+  }
+  
+
+.navbar-login p1 {
+    color: rgb(0, 0, 0);
+    font-size: 34px;
+    font-weight: bold;
+}
+
+.navbar-login p {
+    color: #000000;
+    font-size: 22px;
+}
+
+.navbar-login p2 {
+  color: #000000;
+  font-size: 14px;
+}
+
+.navbar-login p3 {
+  color: #464646;
+  font-size: 22px;
+}
+
+.navbar-login a {
+    color: #EB4B68;
+    font-size: 22px;
+    
+}
+
+.signin-box a.button1 {
+    display: flex;
+    align-items: center;
+    background-color: black; /* เปลี่ยนสีพื้นหลังเป็นสีดำ */
+    border-radius: 1px;
+    position: absolute;
+    margin: 4px 2px;
+    border: 1px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.signin-box a.button2 {
+
+  background-color: black; /* เปลี่ยนสีพื้นหลังเป็นสีดำ */
+  border-radius: 1px;
+  position: absolute;
+  margin: 10px 90px;
+  border: 1px solid #ffffff;
+  color: rgb(255, 255, 255);
+  padding: 10px 32px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.button3 {
+  text-align: center;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  font-size: 16px;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 auto; 
+  display: block; 
+  left: 700px;
+}
+
+
+.signin-box a.forgot-password {
+    text-decoration: none;
+    background-color: white;
+    color: #EB4B68;
+}
+
+.navbar-login,
+.navbar-logpass,
+.signin-box {
+    margin-left: 20%;
+}
+
+.footer p,
+.footer {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
+    background-color: #000000;
+    
+  }
+
+  .last-footer p2 {
+    font-size: 36px;
+    text-decoration: underline;
+  }
+
+  .last-footer {
+    background-color: #000000;
+    color: #fff;
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .vl1 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 1480px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl2 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 500px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl3 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 205px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl4 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2020px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 2000px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl5 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2020px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 555px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl6 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 340px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl7 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 1685px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl9 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 1575px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .vl10 { /*เส้นตรงด้านบน*/
+    border-left: 1px solid rgb(255, 255, 255);
+    height: 2000px;
+    position: absolute;
+    left: 50%;
+    margin-left: -3px;
+    top: 890px;
+    transform: rotate(-90deg);
+    position: absolute;
+  }
+
+  .footer-low {
+    background-color: #000000;
+    color: #fff;
+    padding: 2%;
+    display: flex;
+    justify-content: space-around; 
+  }
+
+  .footer-low ul,
+.footer-low ul p,
+.footer-low ul a {
+  margin: 0;
+  padding: 0 10px;
+  display: flex;
+}
